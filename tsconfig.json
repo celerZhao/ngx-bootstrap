@@ -13,13 +13,5 @@
       "node_modules/@types"
     ],
     "lib": ["es2017", "dom"]
-//    "noEmitHelpers" :true,
-//    "types": [
-//      "jasmine",
-//      "webpack",
-//      "chai"
-//    ],
-//    "mapRoot": "./",
-//    "module": "es6"
   }
 }

@@ -12,7 +12,6 @@ module.exports = function (config) {
       require('karma-chrome-launcher'),
       // require('karma-firefox-launcher'),
       require('karma-jasmine-html-reporter'),
-      require('karma-mocha-reporter'),
       require('karma-coverage-istanbul-reporter'),
       require('@angular-devkit/build-angular/plugins/karma')
     ],
@@ -30,8 +29,8 @@ module.exports = function (config) {
       environment: 'dev'
     },
     reporters: config.angularCli && config.angularCli.codeCoverage
-      ? ['dots', 'mocha']
-      : ['dots', 'mocha'],
+      ? ['dots', 'coverage-istanbul']
+      : ['dots', 'kjhtml'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
