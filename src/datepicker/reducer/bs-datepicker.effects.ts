@@ -13,7 +13,7 @@ import {
   DayViewModel,
   MonthsCalendarViewModel,
   YearsCalendarViewModel
-} from '../models';
+} from '../models/public_api';
 import { BsDatepickerActions } from './bs-datepicker.actions';
 import { BsDatepickerStore } from './bs-datepicker.store';
 import { BsLocaleService } from '../bs-locale.service';

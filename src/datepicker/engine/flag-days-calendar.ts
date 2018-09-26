@@ -2,7 +2,7 @@ import {
   DaysCalendarViewModel,
   DayViewModel,
   WeekViewModel
-} from '../models/index';
+} from '../models/public_api';
 import { isSameDay, isSameMonth, isAfter, isBefore, shiftDate } from 'ngx-bootstrap/chronos';
 import { isMonthDisabled } from '../utils/bs-calendar-utils';
 

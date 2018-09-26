@@ -3,8 +3,6 @@ const path = require('path');
 
 const folder = process.argv[2];
 
-console.log(folder);
-
 ngPackage
   .ngPackagr()
   .forProject(path.join(__dirname, folder))

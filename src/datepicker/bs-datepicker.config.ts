@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import {
   DatepickerRenderOptions
-} from './models';
+} from './models/public_api';
 
 
 /**

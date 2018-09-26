@@ -7,7 +7,7 @@ import {
   MonthsCalendarViewModel,
   MonthViewOptions,
   YearsCalendarViewModel
-} from '../models';
+} from '../models/public_api';
 import { defaultMonthOptions } from './_defaults';
 import { BsDatepickerConfig } from '../bs-datepicker.config';
 

@@ -6,7 +6,7 @@ import {
   BsViewNavigationEvent,
   CellHoverEvent,
   DatepickerRenderOptions
-} from '../models';
+} from '../models/public_api';
 
 @Injectable()
 export class BsDatepickerActions {

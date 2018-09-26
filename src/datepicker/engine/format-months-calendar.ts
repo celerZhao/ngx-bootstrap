@@ -2,7 +2,7 @@ import {
   DatepickerFormatOptions,
   MonthsCalendarViewModel,
   CalendarCellViewModel
-} from '../models';
+} from '../models/public_api';
 import { startOf, formatDate } from 'ngx-bootstrap/chronos';
 import { createMatrix } from '../utils/matrix-utils';
 

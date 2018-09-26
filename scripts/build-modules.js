@@ -31,7 +31,7 @@ async function buildAll() {
   await buildModules(requiredModules);
 
   console.log('Building accordion module');
-  await execa.shell(`node scripts/ng-packagr-api ../src/accordion/package.json`);
+  await execa.shell(`node scripts/ng-packagr/api ../../src/accordion/package.json`);
   console.log('Build of accordion module completed');
 
   await buildModules(['common']);
